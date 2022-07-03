@@ -13,4 +13,4 @@ router.post("*", function (res, req) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
-module.exports = router;
+module.exports = router();
